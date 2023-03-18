@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,800;1,200&family=Outfit:wght@400;500;600;700;900&family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  scroll-padding-top: 2rem;
+}
+
+/* Some variables */
+:root {
+  --main-color:#BFDC36 ;
+  --hover-color: hsl(70, 93%, 41%);
+  --body-color:#000000;
+  --container-color:#464646 ;
+  --text-color:#fff ;
+}
+
+a{
+  text-decoration:none;
+}
+
+li{
+  list-style: none;
+}
+
+section{
+  padding: 3rem 0 2rem;
+}
+
+img{
+  width: 100%;
+}
+
+.logo{
+  width: 50px;
+  height: 50px;
+  left: 90px;
+  top: 30px;
+  margin: 0 auto 0 0;
+}
+
+.bx{
+  cursor: pointer;
+}
+
+body{
+  background: var(--body-color);
+  color: var(--text-color);
+}
+
+.container{
+  max-width: 1068px;
+  margin: auto;
+  width: 100%;
+}
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background:var(--body-color);
+  z-index: 100;
+}
+
+/* Nav */
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+/* Search Box */
+.search-box{
+  max-width: 240px;
+  /* width: 50%; */
+  display: flex;
+  align-items: center;
+  /* column-gap: 0.7rem; */
+  padding: 8px 15px;
+  background-color: var(--container-color);
+  border-radius: 4rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
+
+
+.search-box .bx:hover{
+  color: var(--main-color);
+}
+
+#search-input{
+  /* width: 100%; */
+  border: none;
+  outline: none;
+  color: var(--text-color);
+  background: transparent;
+  font-size: 0.938rem;
+}
+
+/* User */
+.user{
+  display: flex;
+}
+
+.user-img{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 20%;
+}
+
+.btn_3{
+  width: 90px;
+  height: 50px;
+  left: 1516px;
+  top: 50px;
+
+  background: #BFDC36;
+  border-radius: 20px;
+}
+
+.signin-btn{
+  line-height: 20px;
+  color: var(--body-color);
+}
+
+/* Navbar */
+.navbar{
+  position:fixed;
+  /* top: 50%; */
+  transform: translateY(-50%);
+  margin-top: 1.6rem;
+  /* left: 18px; */
+  display: flex;
+  /* flex-direction: column; */
+  /* row-gap: 5rem; */
+  padding: 0 20px;
+  
+}
+
+.nav-link{
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+  padding: 0 20px;
+}
+
+.nav-link:hover,
+.nav-active{
+  color: var(--hover-color);
+  transition: 0.3s all linear;
+  transform: scale(1.1);
+}
+
+.nav-link .bx{
+  font-size: 1.6rem;
+}
+
+.nav-link-title{
+  font-size: 0.7rem;
+}
+
+/* Home */
+.home{
+  position: relative;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  margin-top: 5rem ;
+  border-radius: 0.5rem;
+}
+
+.home-img{
+  position: absolute;
+  width: 100%;
+  height: 110%;
+  z-index: -1;
+  object-fit: center;
+  border-radius: 0.5rem;
+}
+
+.home-text{
+  padding: 40px;
+  margin-top: 500px;
+  margin-left: 20px;
+  background: linear-gradient(359.3deg, #000000 -235.13%, rgba(0, 0, 0, 0.8) 61.96%);
+  backdrop-filter: blur(15px);
+  /* Note: backdrop-filter has minimal browser support */
+  
+  border-radius: 20px;
+  width: 573px;
+  height: 260px;
+  left: 200px;
+  top: 767px;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.home-title{
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--main-color);
+}
+
+.home-text p{
+  font-size: 0.938rem;
+  margin: 10px 0 20px;
+  color: var(--text-color);
+}
+
+.bxs-circle {
+  color: var(--main-color);
+}
+
+.bxs-star{
+  color: var(--main-color);
+}
+
+.cta{
+  display: flex;
+}
+
+.btn_1{
+  display: flex;
+  /* color:var(--text-color); */
+  width: 130px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 28px;
+  background: var(--main-color);
+  border: none;
+}
+
+.btn_2{
+  display: flex;
+  width: 130px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 28px;
+  border-color: var(--main-color);
+  background: none;
+  margin-left: 12px;
+}
+
+.read-btn{
+  color: var(--body-color);
+}
+
+.later-btn{
+  color: var(--main-color);
+}
+
+
