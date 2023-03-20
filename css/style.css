@@ -287,7 +287,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 1100px;
+  width: 1090x;
   height:400px; 
   left: 84px;
   /* top: 1233px; */
@@ -297,6 +297,7 @@ header{
 .heading > .heading-title,
 .heading > .swiper-btn{
   margin-top: 20rem;
+  margin-bottom: 3rem;
 }
 
 .heading-title{
@@ -312,15 +313,16 @@ header{
 
 
 /*  Comic box */
-.comic-box{
+.comic-box > .comic-box-img{
   left: 86px;
   width: 100%;
-  height:380px;
+  height:350px;
 }
 
 .comic-box .box-text{
 color: var(--main-color);
 font-size: 15px;
+margin-top: 10px;
 }
 
 /* Swiper buttons */
@@ -358,5 +360,33 @@ font-size: 15px;
   border-radius: 200%;
   width: 1rem;
   padding: 20px;
+}
+
+#recent > #rec{
+  height: 300px;
+}
+
+#rec > .heading-title,
+#rec > .swiper-btn{
+  margin-bottom: 12rem;
+}
+
+#recent > .comic-box{
+  margin-bottom: 90%;
+
+}
+
+#recommend > #recm{
+  height: 300px;
+}
+
+#recm > .heading-title,
+#recm > .swiper-btn{
+  margin-bottom: 12rem;
+}
+
+#recommend > .comic-box{
+  margin-bottom: 90%;
+
 }
 

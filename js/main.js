@@ -1,9 +1,9 @@
 // Swiper
-var swiper = new Swiper(" .exclusive-content", {
+var swiper = new Swiper(" .exclusive-content",  {
   slidesPerView:1,
   spaceBetween: 10,
   autoplay: {
-    delay: 2500,
+    delay: 5500,
     disableOnInteraction: false,
   },
   pagination: {
