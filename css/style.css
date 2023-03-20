@@ -135,7 +135,7 @@ header{
   display: flex;
   /* flex-direction: column; */
   /* row-gap: 5rem; */
-  padding:0 30px;
+  padding:0 10px;
   margin-right: 10rem;
 }
 
@@ -159,7 +159,7 @@ header{
   display: flex;
   align-items: center;
   color: var(--text-color);
-  padding: 0 25px;
+  padding: 0 15px;
   margin-left: 1rem;
 }
 
