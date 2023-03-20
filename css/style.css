@@ -70,7 +70,7 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
-  /* padding:30px 5px; */
+  padding: 5px;
 }
 
 /* Search Box */
@@ -136,7 +136,7 @@ header{
   /* flex-direction: column; */
   /* row-gap: 5rem; */
   padding:0 5px;
-  margin-right: 10rem;
+  margin-right: 15rem;
 }
 
 .social-links{
