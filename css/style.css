@@ -141,12 +141,12 @@ header{
 
 .social-links{
   position: fixed;
-  top: 15%;
+  top: 12%;
   /* left: 400px; */
   right: 50px;
   flex-direction: column ;
   row-gap: 20rem;
-  width: 50px;
+  width: 60px;
   margin: 10px;
   object-fit: cover;
   /* object-position: center; */
